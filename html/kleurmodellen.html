@@ -1,0 +1,77 @@
+<!DOCTYPE html> <!--Kleurmodellen-->
+<html> <!--html element-->
+  <head>
+    <link rel="stylesheet" href="/layout.css">
+    <link rel="shortcut icon" type="x-icon" href="/Afbeeldingen map/logovanjohnbazaicon.PNG">
+    <title>Kleurmodellen</title> <!-- Dit is de titel van de site -->
+    <meta charset="utf-8">
+    <meta name="vieuwport" content="width=device-width, initial-scale=1.0"> <!--Hiermee maak ik de site mobielvriendelijk-->
+  </head>
+  <body id="body3">
+
+    <div class="header"><!--Hiermee link ik de header naar het css bestand-->
+      <h1>Kleurmodellen</h1><!--Titel van de header --> 
+  </div>
+
+    <ul><!--Hiermee maak ik een menu aan -->
+      <li><a href="/index.html">Homepage</a></li><!--Link naar homepage -->
+      <li><a href="/Html/algemeneinformatie.html">Algemene informatie</a></li><!--Link naar algemene informatie pagina -->
+      <li><a href="/Html/binairestelsel.html">Binaire stelsel</a></li><!--Link naar binaire stelsel pagina-->
+      <li><a class="active" href="/Html/kleurmodellen.html">Kleurmodellen</a></li><!--Link naar kleurmodellen pagina -->
+      <li><a href="/Html/compressie.html">Compressie</a></li><!--Link naar compressie pagina -->
+      <li><a href="/Html/bestandsformaten.html">Bestandsformaten</a></li><!--Link naar bestandsformaten pagina-->
+      <li><a href="/Html/3-lagenmodel.html">3-lagenmodel</a></li>
+    </ul>
+
+       <h1 class="paragraaf">Kleuren op je beeldscherm</h1><!--Hiermee geef ik deze aliniea een kopje-->
+       <p><!--Hiermee maak ik een paragraaf aan-->  
+        Hoe kun je op je beeldscherm van je telefoon of computer kleuren zien?
+        Kleuren worden naast letters ook gecodeerd in computers. Dat heeft een bepaalde werkingswijze. 
+        Na het lezen van deze pagina zul je het helemaal begrijpen.
+       </p> 
+
+       <h1 class="paragraaf" width="50%">Pixels</h1><!--Hiermee geef ik deze aliniea een kopje-->
+       <p><!--Hiermee maak ik een paragraaf aan--> 
+        Achter lenzen zit een beeldsensor wat CCD genoemd wordt.
+        CCD zorgt er voor dat het licht wordt opgenomen en wordt omgezet in een elektrisch signaal. 
+        Elk afbeelding bestaat uit pixels. Om elke pixel een kleur te geven wordt er gebruik gemaakt van kleurmodellen. 
+        De twee belangrijkste kleurmodellen zijn het RGB- en het CMY-model. 
+       </p> 
+
+       <img src="/Afbeeldingen map/rbgcmyk.PNG" style="float: right;" width="700" height="500"><!--Hiermee heb ik een afbeelding in deze pagina gezet-->
+
+       <h1 id="paragraaf2">RGB-model</h1><!--Hiermee geef ik deze aliniea een kopje-->
+       <p><!--Hiermee maak ik een paragraaf aan--> 
+        Elk pixel bestaat uit drie lampjes. Een groene lampje, rode lampje en een blauwe lampje.
+        Deze kleuren zijn het fundament van alle kleuren. Door een lampje meer te laten branden dan 
+        de andere kunnen alle kleuren van de regenboog op je beeldscherm te zien zijn. 
+        Als je bijvoorbeeld rood even sterk laat branden als blauw krijg je paars. 
+        Dat ziet er dan zo uit: “rood: 100% + groen: 0% + blauw: 100% = paars”. 
+        
+        De kleuren worden echter niet gecodeerd in percentages maar in decimalen. 
+        Aangezien een pixel bestaat uit 8 bits loopt het domein van 0 tot en met 255. Dat is zo omdat een byte 
+        256 mogelijkheden in code kan hebben. De kleur paars noteer je dan dus als: “paars = (255, 0, 255)”. 
+        Het achtergrond van het RGB-model is zwart. Als de lampjes in de pixels uit zijn zal de monitor zwart zijn, 
+        zoals bij een computer of telefoon die uit zijn. Het RGB-model wordt in principe dus gebruikt bij apparaten die licht geven.
+       </p> 
+
+       <h1 id="paragraaf2">CMYK-model</h1><!--Hiermee geef ik deze aliniea een kopje-->
+       <p><!--Hiermee maak ik een paragraaf aan--> 
+        Het is niet handig dat het achtergrond zwart is als je iets wilt afdrukken. Het moet namelijk dan wit zijn.
+        Hiervoor bestaat een speciaal kleurmodel genaamd het CMY-model. Bij het CMY-model is het achtergrond wit. 
+       
+        In het CMY-model worden drie kleuren gebruikt: cyaan, magenta en geel. Dit kleurmodel is dus speciaal voor printen. 
+        Als je cyaan, magenta en geel samen mengt krijg je grijs. Als je zwart wilt hebben is dat niet handig. 
+        Daarom bestaat het CMYK-model. De K staat voor key of black
+       </p> 
+
+       <br><!--Hiermee geef ik een stukje break tussen de paragraaf en afbeelding-->
+
+       <iframe width="420" height="345" src="https://www.youtube.com/embed/9hirYMZ7PQc"><!--Hiermee heb ik een video in deze pagina geplakt-->
+
+        <footer class="footer"><!--Hiermee maak ik een footer aan-->
+          <p>Gemaakt door Mohammed Harroui</p><!--Hiermee laat ik zien wie de maker van deze site is -->
+        </footer>
+
+  </body>
+</html>
