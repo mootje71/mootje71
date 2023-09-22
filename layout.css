@@ -1,0 +1,120 @@
+/* algemene content van een site in de vorm van een body*/
+body{
+    background-color: lightskyblue; /* achtergrond kleur in de body*/ 
+    font-family: "Times New Roman", Times, serif; /* lettertype in de body*/
+    font-size: large; /* lettergrootte in de body*/
+    color: whitesmoke; /* tekstkleur in de body*/
+  }
+  
+  /* hiermee maak je een menu*/
+  ul {
+    list-style-type: none;
+    overflow: hidden; /* Als de tekst te groot is in de specifieke gebied waarin het zich bevindt zorgt de overflow er voor wat ermee gaat gebeuren.*/
+    background-color: lightblue; /* achtergrondkleur van menu */
+  }
+  
+  /* lijst item */
+  li {
+    float: left; /* positie van iets en in dit geval is het links */
+  }
+  
+  /* Styling van het menu*/
+  li a {
+    display: block; /* display zorgt voor de weergave van een element*/
+    color: white; /* tekst kleur van menu*/
+    text-align: center; /* positie van tekst*/
+    padding: 25px; /* ruimte rondom de inhoud van een element*/
+    text-decoration: none; /* tekst decoratie*/
+  }
+  
+  /* pagina in menu waar je niet op bent*/
+  li a:hover:not(.active) {
+    background-color: #111; /* achtergrondkleur */ 
+  }
+  
+  /* pagina in menu waar je op bent*/
+  .active { 
+    background-color: lightsteelblue; /* achtergrondkleur */ 
+  }
+  
+  /* lettertype in paragrafen */
+  p {
+    font-family: "Lucida Console", "Courier New", monospace; /* lettertype*/
+  }
+  
+  /* header*/
+  .header {
+    background-color: whitesmoke; /* achtergrond kleur van header*/
+    text-align: center; /* positie van tekst*/
+    padding: 25px; /* ruimte rondom de inhoud van een element*/
+    color: lightskyblue; /* tekst kleur van header*/
+  }
+  
+  /* footer met relatieve positie*/
+  .footer { 
+    background-color: whitesmoke; /* achtergrond kleur van footer*/
+    padding: 12px; /* ruimte rondom de inhoud van een element*/ 
+    text-align: center; /* positie van tekst*/
+    color: lightskyblue; /* tekst kleur van footer*/
+    position: relative; /* positie van footer*/ 
+    width: 100%; /* breedte van footer*/
+    left: 1; /* ruimte naar de linkerkant*/
+  }
+  
+  /* paragraaf met breedte van 100%*/
+  .paragraaf {
+    padding: 8px; /* ruimte rondom de inhoud van een element*/  
+    color: lightskyblue; /* tekst kleur van paragraaf*/
+    background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
+    font-family: "Times New Roman", Times, serif; /* lettertype*/
+    font-size: large; /* lettergrootte*/
+  }
+  
+  /* paragraaf met breedte van 60%*/
+  #paragraaf2 {
+    padding: 8px; /* ruimte rondom de inhoud van een element*/
+    color: lightskyblue; /* tekst kleur van paragraaf*/
+    background-color: whitesmoke; /* achtergrondkleur van paragraaf*/
+    font-family: "Times New Roman", Times, serif; /* lettertype*/
+    font-size: large; /* lettergrootte*/
+    width: 60%; /* breedte van paragraaf*/
+  }
+   
+  .dropbtn {
+    background-color: lightblue;
+    color: whitesmoke;
+    padding: 25px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:lightblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  dropdown-content a {
+    color: black;
+    padding: 25px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {              
+    background-color:lightblue;
+    color: whitesmoke;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
